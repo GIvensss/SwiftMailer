@@ -1,0 +1,20 @@
+{
+    "name": "givensss/swift-mailer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Givensss\\SwiftMailer\\": "src/Mailer",
+            "Mailer\\": "src/Mailer",
+            "Givensss\\SwiftMailer\\Renderer\\": "src/Renderer"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yehor Hrytsenko",
+            "email": "egor.grits56@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0"
+    }
+}
